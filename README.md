@@ -7,41 +7,6 @@ ActiveLife is a comprehensive personal training suite designed to analyze and op
 
 ---
 
-## 📂 Repository Directory Layout
-
-The codebase is organized cleanly into modular folders:
-
-```text
-workout/
-├── .gitignore                  # Prevents committing dependencies and API secrets
-├── README.md                   # Project documentation & setup guide (this file)
-├── workout_app_icon.png        # ActiveLife Application Icon
-│
-├── mcp_server/                 # Python Strava MCP Server & Auth Flow
-│   ├── auth.py                 # OAuth browser authorization script
-│   ├── mcp_server.py           # FastMCP server exposing tools to LLMs
-│   ├── requirements.txt        # Python dependency manifest
-│   └── .env.example            # Environment variables template
-│
-├── dashboard/                  # React + Vite + TypeScript Frontend Dashboard
-│   ├── public/data/            # Local data directory for workout logs
-│   ├── src/                    # App source code (App.tsx, index.css, App.css)
-│   ├── package.json            # Node project configuration
-│   └── vite.config.ts          # Vite bundler options
-│
-├── screenshots/                # Visual verification screenshots
-│   ├── overview.png            # Overview dashboard tab
-│   ├── comparison.png          # Year-over-Year comparison tab
-│   ├── running_analysis.png    # Pace & Speed statistics
-│   ├── cardio_intensity.png    # Heart Rate zone profile
-│   └── ai_coach.png            # Training advisor & consistency simulator
-│
-└── workout_log/                # Workout activity logs
-    ├── test_workout_log.csv    # Sample test data template (tracked in Git)
-    └── (workout_log_*.csv)     # Personal logs (automatically gitignored)
-```
-
----
 
 ## 📋 Prerequisites
 
@@ -175,6 +140,42 @@ Here is a look at the ActiveLife web interface:
 
 ### AI Coach & What-If Simulator
 ![AI Coach](screenshots/ai_coach.png)
+
+---
+
+## 📂 Repository Directory Layout
+
+The codebase is organized cleanly into modular folders:
+
+```text
+workout/
+├── .gitignore                  # Prevents committing dependencies and API secrets
+├── README.md                   # Project documentation & setup guide (this file)
+├── workout_app_icon.png        # ActiveLife Application Icon
+│
+├── mcp_server/                 # Python Strava MCP Server & Auth Flow
+│   ├── auth.py                 # OAuth browser authorization script
+│   ├── mcp_server.py           # FastMCP server exposing tools to LLMs
+│   ├── requirements.txt        # Python dependency manifest
+│   └── .env.example            # Environment variables template
+│
+├── dashboard/                  # React + Vite + TypeScript Frontend Dashboard
+│   ├── public/data/            # Local data directory for workout logs
+│   ├── src/                    # App source code (App.tsx, index.css, App.css)
+│   ├── package.json            # Node project configuration
+│   └── vite.config.ts          # Vite bundler options
+│
+├── screenshots/                # Visual verification screenshots
+│   ├── overview.png            # Overview dashboard tab
+│   ├── comparison.png          # Year-over-Year comparison tab
+│   ├── running_analysis.png    # Pace & Speed statistics
+│   ├── cardio_intensity.png    # Heart Rate zone profile
+│   └── ai_coach.png            # Training advisor & consistency simulator
+│
+└── workout_log/                # Workout activity logs
+    ├── test_workout_log.csv    # Sample test data template (tracked in Git)
+    └── (workout_log_*.csv)     # Personal logs (automatically gitignored)
+```
 
 ---
 
