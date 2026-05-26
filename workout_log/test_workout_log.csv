@@ -1,0 +1,9 @@
+date,name,type,duration_min,distance_km,elevation_m,avg_hr,max_hr,kudos
+2026-05-10,Tempo Run,Run,32.5,5.1,20.0,155,178,5
+2026-05-12,Interval Cardio,HighIntensityIntervalTraining,45.0,0.0,0.0,165,190,2
+2026-05-14,Evening Flow,Yoga,60.0,0.0,0.0,98,120,4
+2026-05-16,Base Run,Run,45.2,7.2,30.0,138,152,8
+2026-05-18,Upper Body Lift,WeightTraining,50.0,0.0,0.0,110,135,3
+2025-05-10,Sample 2025 Run,Run,30.0,4.8,15.0,,,6
+2025-05-12,Core HIIT,HighIntensityIntervalTraining,40.0,0.0,0.0,,,3
+2025-05-15,Active Walk,Walk,45.0,3.5,5.0,,,2

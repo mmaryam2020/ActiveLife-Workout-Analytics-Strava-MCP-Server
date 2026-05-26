@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.venv/
+env/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Private Credentials & Local Configs
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+strava_tokens.json
+
+# Builds & Outputs
+dist/
+dist-ssr/
+build/
+*.gemini/
+
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Personal Workout Logs (exclude actual training data)
+workout_log/workout_log_*.csv
+
